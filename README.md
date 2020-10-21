@@ -6,11 +6,10 @@
 [![Coverage Status](https://coveralls.io/repos/github/jllorencetti/pets/badge.svg?branch=master)](https://coveralls.io/github/jllorencetti/pets?branch=master)
 [![Updates](https://pyup.io/repos/github/jllorencetti/pets/shield.svg)](https://pyup.io/repos/github/jllorencetti/pets/)
 
-Pets is a website where people can publish lost pets
-and pets available for adoption.
+This website was platform where people can publish lost pets and also pets available for adoption.
 
 Users can create an account with a username and password,
-or they can use their Twitter and Facebook to login. You can also extend it to use other providers as it's backed by [python-social-auth](https://pypi.python.org/pypi/python-social-auth).
+or they can use their Twitter and Facebook account to login. You can also extend it to use other providers as it's backed by [python-social-auth](https://pypi.python.org/pypi/python-social-auth).
 
 Images uploaded by users are cropped with [easy-thumbnails](https://pypi.python.org/pypi/easy-thumbnails) to improve the site performance.
 
@@ -19,7 +18,7 @@ Images uploaded by users are cropped with [easy-thumbnails](https://pypi.python.
 ### Requirements
 
 * [Python](https://python.org) 3.6 or newer
-* [PostgreSQL](https://www.postgresql.org) running with a _database_, _username_ and _password_ to be used with Pets.
+* [PostgreSQL](https://www.postgresql.org) running with the _database_, _username_ and _password_ to be used with Pets.
 
 
 ### Fork and clone the repository
@@ -80,7 +79,7 @@ sudo apt-get install python-dev python3.x-dev libjpeg8-dev
 
 #### Download ChromeDriver
 
-You just need to download and unzip the latest [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and place it somewhere in your search path.
+You just need to download and unzip the latest version [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and place it somewhere in your search path.
 
 ### Install Python packages
 
@@ -100,3 +99,4 @@ python manage.py test
 ```
 
 Please, do not commit changes if any test fails. Ask for help here instead.
+hope you may get better!
